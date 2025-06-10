@@ -1,6 +1,6 @@
-import js from "@eslint/js";
-import globals from "globals";
-import { defineConfig } from "eslint/config";
+import js from "@eslint/js"
+import globals from "globals"
+import { defineConfig } from "eslint/config"
 import stylistic from '@stylistic/eslint-plugin'
 
 export default defineConfig([
@@ -19,7 +19,7 @@ export default defineConfig([
     },
     rules: {
       '@stylistic/indent': [ 'warn', 2 ],
-      '@stylistic/semi': ['warn', 'never'],
+      '@stylistic/semi': [ 'warn', 'never' ],
       '@stylistic/linebreak-style': [ 'warn', 'windows' ],
       '@stylistic/no-multiple-empty-lines': [ 'warn', { 'max': 1 } ],
       '@stylistic/multiline-comment-style': [ 'warn', 'starred-block' ],
@@ -44,4 +44,4 @@ export default defineConfig([
       '@stylistic/comma-style': [ 'warn', 'last' ]
     }
   }
-]);
+])
