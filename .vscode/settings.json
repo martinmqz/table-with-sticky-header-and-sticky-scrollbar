@@ -1,0 +1,6 @@
+{
+  "sonarlint.connectedMode.project": {
+    "connectionId": "webect",
+    "projectKey": "Webect_table-with-sticky-header-and-sticky-scrollbar"
+  }
+}
